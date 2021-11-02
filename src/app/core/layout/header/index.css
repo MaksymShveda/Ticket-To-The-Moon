@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Jura&display=swap");
+* {
+  font-family: "Jura", sans-serif; }
+
+header {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #ffffff;
+  width: 100%; }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  height: 80%;
+  padding-right: 1%; }
+
+#logo {
+  display: flex;
+  align-items: center;
+  padding-left: 1%;
+  flex-direction: row;
+  background-color: transparent; }
+  #logo h1 {
+    font-size: 24px; }
+  #logo img {
+    width: 30px;
+    height: 30px; }
+
+.link {
+  text-decoration: none;
+  color: #ffffff; }
+
+/*# sourceMappingURL=index.css.map */

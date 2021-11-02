@@ -1,0 +1,26 @@
+@import '../../back/scss/core.scss';
+
+div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: $font-color;
+}
+
+button{
+    background-color: $button-color;
+    border: none;
+    height: 80px;
+    width: 180px;
+    font-size: $xxl;
+    color: $font-color;
+    border-radius: 10px;
+}
+h1{
+    font-size: $xxxxl;
+
+}
+p{
+    font-size: $xxl;
+    text-align: center;
+}

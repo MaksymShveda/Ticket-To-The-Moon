@@ -1,0 +1,44 @@
+@import '../../../back/scss/core.scss';
+
+*{
+    font-family: $main-font;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    // background-color: $header-color;
+    color: $font-color;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    height: 80%;
+    padding-right: 1%;
+}
+
+
+#logo{
+    display:flex;
+    align-items: center;
+    padding-left:1%;
+    flex-direction: row;
+    background-color: transparent;
+    h1{
+        font-size: $xxxl;
+    }
+    img{
+        width:30px;
+        height: 30px;
+    }
+}
+
+.link{
+    text-decoration: none;
+    color: $font-color;
+}
