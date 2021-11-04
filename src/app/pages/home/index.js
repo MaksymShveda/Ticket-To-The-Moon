@@ -1,8 +1,23 @@
 import './index.css';
 import { Link } from 'react-router-dom';
 import { signInPath } from '../../constants';
+import React from 'react';
 
-function MainPage(){
+
+class MainPage extends React.Component{
+    // Test for changing background image
+    // componentDidMount(){
+    //     let imageIndex = 2;
+    //     let imageChangingTimeout = setTimeout(function changeBackgroundImage(){
+    //         console.log(imageIndex)
+    //     document.body.style.backgroundImage = `url('/spaceship-main-${imageIndex}.jpg')`;
+    //     imageIndex === 3 ? imageIndex = 1:imageIndex +=1;
+    //     imageChangingTimeout = setTimeout(changeBackgroundImage, 10000);
+    //     }, 10000);
+    // };
+
+
+    render(){
     return (
         <div>
             <h1>
@@ -18,6 +33,6 @@ function MainPage(){
             </Link>
         </div>
     )
-}
+}}
 
 export default MainPage;

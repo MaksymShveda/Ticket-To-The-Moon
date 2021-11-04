@@ -5,13 +5,17 @@ import UserProfile from './pages/user-profile/index.js';
 import MainPage from './pages/home/index';
 import Games from './pages/games/index.js';
 import Layout from './core/layout/index.js';
+import React from 'react';
 
-const App =()=> {
+const App = () =>{
+
+
+
 return (
   
 <Layout>
       <Switch>
-        <Route path="/">
+        <Route exact path="/">
           <MainPage/>
         </Route>
         <Route path="/ships">
@@ -28,5 +32,6 @@ return (
  
 )
 }
+
 
 export default App;

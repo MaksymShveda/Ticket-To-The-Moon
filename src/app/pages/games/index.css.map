@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAQ,yEAAiE",
-"sources": ["../../back/scss/fonts.scss"],
+"mappings": "AAAQ,yEAAiE;ACEzE,MAAM;EACF,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;;AAEhB,UAAU;EACN,gBAAgB,EAAC,KAAK;;AAE1B,UAAU;EACN,eAAe,EAAE,IAAI;EACrB,KAAK,EAAE,IAAI;EACX,aAAa,EAAE,IAAI;EACnB,SAAS,ECRP,IAAI;EDSN,aAAa,EAAE,IAAI;EACnB,cAAG;IACC,KAAK,EAAE,KAAK;IACZ,MAAM,EAAE,KAAK;IACb,MAAM,EAAC,mBAAmB;EAK9B,cAAG;IACC,OAAO,EAAE,IAAI;IACb,cAAc,EAAE,GAAG;;AAK3B,gBAAgB;EACZ,kBAAkB,EAAE,yCAAyC;EACjE,eAAe,EAAE,yCAAyC;EAC1D,UAAU,EAAE,yCAAyC;EACrD,mBAAE;IACF,KAAK,EEjCS,OAAO",
+"sources": ["../../assets/scss/fonts.scss","index.scss","../../assets/scss/sizes.scss","../../assets/scss/colors.scss"],
 "names": [],
 "file": "index.css"
 }
