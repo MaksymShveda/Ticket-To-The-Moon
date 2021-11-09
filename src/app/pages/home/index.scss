@@ -1,13 +1,14 @@
 @import '../../assets/scss/core.scss';
 
-div{
+#home{
     display: flex;
     align-items: center;
     flex-direction: column;
     color: $font-color;
+    font-family: $main-font;
 }
 
-button{
+#sign-up{
     background-color: $button-color;
     border: none;
     height: 80px;

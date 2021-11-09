@@ -1,6 +1,6 @@
 import './index.css';
 import { Link } from 'react-router-dom';
-import { signInPath } from '../../constants';
+import { signUpPath } from '../../constants';
 import React from 'react';
 
 
@@ -19,7 +19,7 @@ class MainPage extends React.Component{
 
     render(){
     return (
-        <div>
+        <div id="home">
             <h1>
                 Your own space armada is waiting for your command, sir.
             </h1>
@@ -28,8 +28,8 @@ class MainPage extends React.Component{
                 Earn money by playing games.<br/>
                 Buy your own spaceship and compete other players, becoming the Greatest Space Commander.
             </p>
-            <Link to={signInPath}>
-                <button>Buy a ticket to the Moon</button>
+            <Link to={signUpPath}>
+                <button id="sign-up">Buy a ticket to the Moon</button>
             </Link>
         </div>
     )

@@ -2,7 +2,7 @@ import {Link} from 'react-router-dom';
 import Tetris from './tetris';
 import Memo from './memo';
 import {tetrisPath, memoPath} from '../../constants'
-import tetrisLogo from '../../assets/images/tetris.svg';
+import tetrisLogo from '../../assets/images/tetris.png';
 import memoLogo from '../../assets/images/memo.png'
 import './index.css'
 
@@ -12,7 +12,7 @@ function Games(){
             <h1>Choose The Game To Earn universums</h1>
             <Link to={tetrisPath} className="game-link">
                 <div>
-                    <img src={tetrisLogo} alt="Tetris"></img>
+                    <img src={tetrisLogo} alt="Tetris" className="tetris-logo"></img>
                     <h3>Tetris</h3>
                 </div>
             </Link>

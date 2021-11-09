@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,MAAM;EACF,OAAO,EAAE,IAAI;EAEb,QAAQ,EAAC,GAAG;EACZ,MAAM,EAAE,cAAc;EACtB,KAAK,EAAE,IAAI;EACX,SAAS,EAAE,IAAI;EACf,UAAU,EAAC,IAAI",
+"sources": ["stage.scss"],
+"names": [],
+"file": "stage.css"
+}

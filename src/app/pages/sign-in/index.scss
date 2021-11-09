@@ -1,1 +1,39 @@
-@import '../../back/scss/core.scss';
+@import '../../assets/scss/core.scss';
+ form {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   height: 90%;
+   font-family: $main-font;
+   label{
+           color: white;
+           margin: 30px 0px 30px 0px;
+           font-size: $xxxl;
+           width: 50%;
+   } 
+   input{
+           height: 10%;
+           width: 50%;
+           background:transparent;
+           font-size: $xxl;
+           color:white;
+           font-family:$main-font;
+           border-radius: 10px;
+           border: 5px solid rgb(70, 68, 68);
+           outline: none;
+   }
+   input:focus, button:active{
+           border: 5px solid white;
+   }
+   button{
+           background: transparent;
+           border:5px solid rgb(70, 68, 68);
+           margin-top: 30px;
+           border-radius: 10px;
+           color: white;
+           font-family: $main-font;
+           width: 20%;
+           height: 10%;
+           font-size: $xxxxl;
+   }
+}

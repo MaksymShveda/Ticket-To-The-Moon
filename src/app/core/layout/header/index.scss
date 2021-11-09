@@ -1,8 +1,6 @@
-@import '../../../back/scss/core.scss';
+@import '../../../assets/scss/core.scss';
 
-*{
-    font-family: $main-font;
-}
+
 
 header{
     display: flex;
@@ -12,6 +10,7 @@ header{
     // background-color: $header-color;
     color: $font-color;
     width: 100%;
+    font-family: $main-font;
 }
 
 nav{
@@ -41,4 +40,7 @@ nav{
 .link{
     text-decoration: none;
     color: $font-color;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }

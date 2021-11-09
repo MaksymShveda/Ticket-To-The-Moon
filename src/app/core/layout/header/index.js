@@ -1,6 +1,6 @@
 import "./index.css"
 import {homePath,shipsMarketPath,myProfile,signInPath,gamesPath} from '../../../constants/index';
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import logo from '../../../assets/images/logo.png'
 
 
@@ -9,8 +9,10 @@ function Header(){
     return (
         <header>
             <div id="logo">
+                <Link to={homePath} className="link">
                     <img src={logo} alt="Ticket To The Moon"/>
                     <h1>Ticket To The Moon</h1>
+                </Link>
             </div>
             <nav>
                 <NavLink to={homePath} className="link">
