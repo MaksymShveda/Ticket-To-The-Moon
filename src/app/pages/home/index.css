@@ -6,6 +6,9 @@
   flex-direction: column;
   color: #ffffff;
   font-family: "Jura", sans-serif; }
+  #home p {
+    font-size: 20px;
+    text-align: center; }
 
 #sign-up {
   background-color: #454C92;
@@ -18,9 +21,5 @@
 
 h1 {
   font-size: 40px; }
-
-p {
-  font-size: 20px;
-  text-align: center; }
 
 /*# sourceMappingURL=index.css.map */

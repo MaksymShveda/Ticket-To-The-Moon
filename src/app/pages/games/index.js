@@ -13,7 +13,7 @@ function Games(){
             <Link to={tetrisPath} className="game-link">
                 <div>
                     <img src={tetrisLogo} alt="Tetris" className="tetris-logo"></img>
-                    <h3>Tetris</h3>
+                    <h3 className="game-name">Tetris</h3>
                 </div>
             </Link>
             <Link to={memoPath} className="game-link">

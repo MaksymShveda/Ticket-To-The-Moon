@@ -6,6 +6,10 @@
     flex-direction: column;
     color: $font-color;
     font-family: $main-font;
+    p{
+        font-size: $xxl;
+        text-align: center;
+    }
 }
 
 #sign-up{
@@ -21,7 +25,4 @@ h1{
     font-size: $xxxxl;
 
 }
-p{
-    font-size: $xxl;
-    text-align: center;
-}
+

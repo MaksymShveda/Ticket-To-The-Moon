@@ -1,3 +1,90 @@
 @import url("https://fonts.googleapis.com/css2?family=Jura&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+#ships {
+  color: white;
+  font-family: "Jura", sans-serif;
+  height: 100%; }
+
+.loading-ships {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10%;
+  font-family: "Jura", sans-serif; }
+  .loading-ships h3 {
+    color: white; }
+
+#ships-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+p {
+  color: white; }
+
+.sort-select {
+  appearance: none;
+  border: 0;
+  outline: 0;
+  font: inherit;
+  /* Personalize */
+  width: 20%;
+  height: 3em;
+  padding: 0 4em 0 1em;
+  background: url(https://upload.wikimedia.org/wikipedia/commons/9/9d/Caret_down_font_awesome_whitevariation.svg) no-repeat right 0.8em center/1.4em, linear-gradient(to left, rgba(255, 255, 255, 0.3) 3em, rgba(255, 255, 255, 0.2) 3em);
+  color: white;
+  border-radius: 0.25em;
+  box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer; }
+  .sort-select .sort-option {
+    color: inherit;
+    background-color: #1a1819; }
+  .sort-select:focus {
+    outline: none; }
+  .sort-select::-ms-expand {
+    display: none; }
+
+.ship-container {
+  width: 70%;
+  margin: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  border-radius: 1.5rem 0 1.5rem;
+  box-shadow: rgba(141, 141, 141, 0.25) 0px 30px 30px, rgba(141, 141, 141, 0.12) 0px -12px 30px, rgba(141, 141, 141, 0.12) 0px 4px 6px, rgba(141, 141, 141, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px; }
+  .ship-container img {
+    max-width: 480px;
+    max-height: 270px;
+    padding: 30px; }
+
+.ship-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  width: 100%;
+  height: 100%; }
+  .ship-text-wrapper h1 {
+    align-self: flex-start;
+    text-align: center; }
+  .ship-text-wrapper h2 {
+    font-weight: 300; }
+
+.tools {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly; }
+  .tools input {
+    color: white;
+    font-family: "Jura", sans-serif;
+    border-radius: 10px;
+    border: 2px solid #464444;
+    border-radius: 1.5rem 0 1.5rem;
+    outline: none;
+    background: transparent;
+    width: 20%; }
+  .tools input:focus {
+    border: 2px solid white; }
 
 /*# sourceMappingURL=index.css.map */
